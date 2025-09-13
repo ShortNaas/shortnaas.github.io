@@ -6,7 +6,10 @@ order: 3
 
 <ul>
   {% for project in site.projects %}
-    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% unless project.exclude_from_list %}
+      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% endunless %}
   {% endfor %}
 </ul>
+
 
