@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Books I have Read
+title: Book Notes
+summary: >
+    A detailed book notes from books I've read.
 ---
 
 <ul>

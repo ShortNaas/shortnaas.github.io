@@ -13,7 +13,7 @@
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
   --link-color: #0056b2;
-  --link-underline-color: #dee2e6;
+  --link--color: #dee2e6;
   --button-bg: #ffffff;
   --btn-border-color: #e9ecef;
   --btn-backtotop-color: #686868;
@@ -111,7 +111,7 @@
   --clipboard-checked-color: #43c743;
 
   [class^='prompt-'] {
-    --link-underline-color: rgb(219, 216, 216);
+    --link--color: rgb(219, 216, 216);
   }
 
   .dark {

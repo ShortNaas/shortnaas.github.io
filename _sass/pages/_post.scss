@@ -494,3 +494,13 @@ h4 {
     scroll-margin-top: 2rem;
   }
 }
+
+.content {
+  color: #ffffff !important;      /* white text */
+  font-size: 1.3rem !important;   /* larger font size */
+  line-height: 1.6 !important;    /* improves readability */
+}
+
+.content p {
+  margin-bottom: 1rem;
+}

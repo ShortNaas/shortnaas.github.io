@@ -1,8 +1,6 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 5
 ---
 
-> Welcome
-{: .prompt-tip }
+#### This is a place where I write all about myself and share my works.
