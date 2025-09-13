@@ -9,7 +9,7 @@ title: Books I have Read
     <li style="display: flex; align-items: flex-start; margin-bottom: 30px;">
       <a href="{{ book.url | relative_url }}">
         <img src="{{ book.image | relative_url }}" 
-             style="height:100px; width:auto; margin-right: 62px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+             style="height:100px; width:72px; object-fit:cover; margin-right: 80px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
       </a>
       <div>
         <a href="{{ book.url | relative_url }}" 

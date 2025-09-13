@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<article class="book-details" style="display: flex; flex-direction: row; gap: 32px; align-items: flex-start; margin-top: 30px;">
+
+  <!-- Book Cover -->
+  <div>
+    <img src="{{ page.image | relative_url }}"
+         style="width:120px; height:160px; object-fit:cover; box-shadow:0 4px 16px rgba(0,0,0,0.2); background:#222; border-radius:4px;">
+  </div>
+
+  <!-- Book Info & Title -->
+  <div>
+    <h1 style="font-size: 2em; font-variant: small-caps; color: #18ad30; margin-bottom: 0.2em;">
+      {{ page.title }}
+    </h1>
+    {% if page.isbn %}
+      <div style="color:#aaa; letter-spacing:1px;">ISBN: {{ page.isbn }}</div>
+    {% endif %}
+    {% if page.date_read %}
+      <div style="color:#aaa; letter-spacing:1px;">Date read: {{ page.date_read }}</div>
+    {% endif %}
+    {% if page.rating %}
+      <div style="color:#aaa; letter-spacing:1px;">How strongly I recommend it: {{ page.rating }}/10</div>
+    {% endif %}
+    {% if page.listlink %}
+      <div style="margin-top:4px; color:#aaa; font-size:0.97em;">
+        (See <a href="{{ page.listlink }}" style="color:#bbb; text-decoration:underline;">my list of books</a>, for more.)
+      </div>
+    {% endif %}
+    {% if page.amazon %}
+      <div style="margin-top:10px;">
+        <strong>Go to the <a href="{{ page.amazon }}" target="_blank" style="color:#8ab4f8;">Amazon page</a></strong> for details and reviews.
+      </div>
+    {% endif %}
+  </div>
+</article>
+
+<!-- Book Body -->
+<div class="book-body" style="margin-top: 1.5em;">
+  {{ content }}
+</div>
