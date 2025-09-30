@@ -23,30 +23,30 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://theodorezra.github.io"
+url: "https://shortnaas.github.io"
 
 github:
-  username: theodorezra # change to your GitHub username
+  username: shortnaas # change to your GitHub username
 
 twitter:
-  username: theodorezra # change to your Twitter username
+  username: shortnaas # change to your Twitter username
 
 instagram:
-  username: theodorezzra
+  username: shortnaas
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Theodore Ezra
-  email: theodorezra@proton.me # change to your email address
+  name: Naas
+  email:  # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/theodorezra # change to your Twitter homepage
-    - https://github.com/theodorezra # change to your GitHub homepage
+    - https://twitter.com/shortnaas # change to your Twitter homepage
+    - https://github.com/shortnaas # change to your GitHub homepage
     # Uncomment below to add more social links
-    - https://www.instagram.com/theodorezzra
-    - https://www.linkedin.com/in/theodorezra
-    - https://www.soundcloud.com/theodorezra
+    - https://www.instagram.com/shortnaas
+    - https://www.linkedin.com/in/shortnaas
+    - https://www.soundcloud.com/shortnaas
 
 
 # Site Verification Settings
