@@ -14,9 +14,9 @@ timezone: Europe/Stockholm
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Theodore Ezra # the main title
+title: Naas # the main title
 
-tagline: Just writing # it will display as the subtitle
+tagline: A little bit of everything. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Writing essays about ideas I found interesting.
