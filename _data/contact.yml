@@ -12,15 +12,15 @@
 
 - type: instagram
   icon: 'fab fa-instagram'
-  url: 'https://instagram.com/theodorezzra'
+  url: 'https://instagram.com/shortnaas'
 
 - type: soundcloud
   icon: 'fab fa-soundcloud'
-  url: 'https://soundcloud.com/theodorezra'
+  url: 'https://soundcloud.com/shortnaas'
 
 - type: youtube
   icon: 'fab fa-youtube'
-  url: 'https://www.youtube.com/@theodorezra'
+  url: 'https://www.youtube.com/@shortnaas'
 
 # - type: rss
 #  icon: "fas fa-rss"
