@@ -19,7 +19,7 @@ summary: >
           {{ book.title }}
         </a>
         <div style="font-size: 0.95em; color: #666;">
-            Date read: {{ book.date_read }}. How strongly I recommend it: {{ book.rating }}/10
+            Date Read: {{ book.date_read }}. How Strongly I Recommend It: {{ book.rating }}/10
         </div>
         <div style="margin-top: 10px;">
         {{ book.summary }}

@@ -19,10 +19,10 @@ layout: default
       <div style="color:#aaa; letter-spacing:1px;">ISBN: {{ page.isbn }}</div>
     {% endif %}
     {% if page.date_read %}
-      <div style="color:#aaa; letter-spacing:1px;">Date read: {{ page.date_read }}</div>
+      <div style="color:#aaa; letter-spacing:1px;">DATE READ: {{ page.date_read }}</div>
     {% endif %}
     {% if page.rating %}
-      <div style="color:#aaa; letter-spacing:1px;">How strongly I recommend it: {{ page.rating }}/10</div>
+      <div style="color:#aaa; letter-spacing:1px;">HOW STRONGLY I RECOMMEND IT: {{ page.rating }}/10</div>
     {% endif %}
     {% if page.listlink %}
       <div style="margin-top:4px; color:#aaa; font-size:0.97em;">
@@ -38,6 +38,12 @@ layout: default
 </article>
 
 <!-- Book Body -->
-<div class="book-body" style="margin-top: 1.5em;">
+<div class="book-body" style="margin-top: 1.5em; font-size: 1.2em; ">
   {{ content }}
 </div>
+<style>
+  .book-body p {
+    margin-bottom: 1.5em;  /* Space between paragraphs */
+  }
+</style>
+
