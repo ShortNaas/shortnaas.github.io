@@ -7,9 +7,9 @@ summary: >
 
 <div style="margin-bottom: 20px; font-size: 0.9em;">
   Sort by: 
-  <a onclick="sortBooks('title')" style="color: #18ad30; cursor: pointer; margin-right: 12px; text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">title</a>
-  <a onclick="sortBooks('rating')" style="color: #18ad30; cursor: pointer; margin-right: 12px; text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">best</a>
-  <a onclick="sortBooks('date')" style="color: #18ad30; cursor: pointer; text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">date</a>
+  <span onclick="sortBooks('title')" style="color: #18ad30; cursor: pointer; margin-right: 12px; text-decoration: none; transition: color 0.2s ease; display: inline-block;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">title</span>
+  <span onclick="sortBooks('rating')" style="color: #18ad30; cursor: pointer; margin-right: 12px; text-decoration: none; transition: color 0.2s ease; display: inline-block;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">best</span>
+  <span onclick="sortBooks('date')" style="color: #18ad30; cursor: pointer; text-decoration: none; transition: color 0.2s ease; display: inline-block;" onmouseover="this.style.color='#173b23';" onmouseout="this.style.color='#18ad30';">date</span>
 </div>
 
 <ul id="booksList">
